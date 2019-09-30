@@ -24,6 +24,9 @@
 						<th>Temperatura Máxima</th>
 						<th>Umidade Relativa do Ar</th>
 						<th>Descrição</th>
+						<th>Data/ Hora</th>
+						<th>Latitude</th>
+						<th>Longitude</th>
 					</tr>
 				</thead>				
 				<tbody>
@@ -33,6 +36,9 @@
 						<td th:text="${previsao.temperaturaMaxima}"></td>
 						<td th:text="${previsao.umidadeRelativaDoAr}"></td>
 						<td th:text="${previsao.descricao}"></td>
+						<td th:text="${previsao.dataHora}"></td>
+						<td th:text="${previsao.latitude}"></td>
+						<td th:text="${previsao.longitude}"></td>
 					</tr>
 				</tbody>
 			</table>

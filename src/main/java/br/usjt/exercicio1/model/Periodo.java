@@ -28,6 +28,9 @@ public class Periodo implements Serializable {
 	private Double umidadeRelativaDoAr;
 	@Column(name = "descricao")
 	private String descricao;
+	private String dataHora;
+	private String latitude;
+	private String longitude;
 	
 	// getters/setters
 	public String getNomeDia() {
@@ -70,4 +73,27 @@ public class Periodo implements Serializable {
 		this.descricao = value;
 	}
 	
+	public String getDataHora() {
+		return dataHora;
+	}
+
+	public void setDataHora(String dataHora) {
+		this.dataHora = dataHora;
+	}
+
+	public String getLatitude() {
+		return latitude;
+	}
+
+	public void setLatitude(String latitude) {
+		this.latitude = latitude;
+	}
+
+	public String getLongitude() {
+		return longitude;
+	}
+
+	public void setLongitude(String longitude) {
+		this.longitude = longitude;
+	}
 }

@@ -10,6 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import br.usjt.exercicio1.model.Periodo;
 import br.usjt.exercicio1.repository.PrevisaoRepository;
+import br.usjt.exercicio1.service.PrevisaoService;
 
 @Controller
 public class PrevisaoController {
